@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.microservices.review",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "microservice",
+    "baseName": "productReview",
+    "packageName": "com.microservices.review",
+    "packageFolder": "com/microservices/review",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Y2FhOTMzMjM1ZDQ2ODVhMzFkYjA5ZmFmYzhiMTBjZGRjZGZhN2FhYjMyNTc3ZTU5MjI3ZTJiNzE2MmZjNTQ2YjQ1MDBjNTEzZTE3YjQ2MTEzYTRiYTJkNmRlYjU3NTRmYTU3YjkyMTNhMGU2ZDg5OTI5YjU0MzMyODE5OWM2YjE=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1610059009664,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en"],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
