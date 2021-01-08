@@ -1,0 +1,30 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "productReview",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "productId",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "averageReviewScore",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "numberOfReview",
+      "fieldType": "Integer"
+    }
+  ],
+  "changelogDate": "20210107224144",
+  "dto": "mapstruct",
+  "searchEngine": false,
+  "service": "serviceImpl",
+  "entityTableName": "product",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "pagination",
+  "microserviceName": "productReview"
+}
